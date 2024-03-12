@@ -1,0 +1,154 @@
+.header{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-size: 200px;
+    text-align: center;
+  }
+  
+  .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 20vh;
+  }
+  
+  .box{
+      height: 200px;
+      width: 200px;
+      margin: 10px;
+      border: 4px solid black;
+      border-radius: 50px;
+      text-align: center;
+      line-height: 200px;
+      font-family: "Madimi One", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+  }
+  
+  .ran{
+      background-color: aqua;
+  }
+  .myturn{
+      background-color: rgb(255, 0, 149);
+  }
+  
+  .btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 22vh;
+      cursor: pointer;
+  }
+  
+  .keys{
+      margin: 50px;
+      height: 50%;
+      width: 5%;
+      text-align: center;
+      font-family: "Madimi One", sans-serif;
+      font-weight: 400;
+      font-size: 30px;
+  }
+
+  .scissor{
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 20px gray;
+    background-color: #fff;
+    background-image: url("img3.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+
+  .paper{
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 20px gray;
+    background-color: #fff;
+    background-image: url("img2.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+  .rock{
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 20px gray;
+    background-color: #fff;
+    background-image: url("img1.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+
+  h2{
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+  }
+  
+  span{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+  }
+
+  .reset{
+    display: flex;
+    justify-content: center;
+  }
+
+  .reload{
+    margin: 50px;
+      height: 50%;
+      width: 5%;
+      text-align: center;
+      font-weight: 400;
+      font-size: 30px;
+      background-color: orange;
+      border: 2px solid black;
+      border-radius: 10px;
+  }
+
+@media screen and (max-width: 768px) {
+  .header {
+      font-size: 8vw;
+  }
+  .box {
+      height: 20vw;
+      width: 20vw;
+      line-height: 20vw;
+      font-size: 2vw;
+  }
+  .btn {
+      min-height: 30vh;
+  }
+  .keys {
+      margin: 1vw;
+      font-size: 3vw;
+  }
+  .scissor, .paper, .rock {
+      height: 15vw;
+      width: 15vw;
+  }
+  h2 {
+      font-size: 2vw;
+  }
+  span {
+      font-size: 3vw;
+  }
+  
+}
+
+@media screen and (max-width: 1780px) {
+  .reload {
+    margin: 1vw;
+    font-size: 3vw;
+    width: 100%;
+}
+}
